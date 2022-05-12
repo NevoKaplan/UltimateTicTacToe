@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/topLM"
+        android:layout_width="35dp"
+        android:layout_height="28dp" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="35dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/middleLM"
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+        <View
+            android:id="@+id/view11"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/bottomLM"
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view5"
+        android:layout_width="2dp"
+        android:layout_height="87dp"
+        android:background="@android:color/black" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/topMM"
+            android:layout_width="35dp"
+            android:layout_height="28dp"
+            android:text="Button" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/black" />
+        <ImageView
+            android:id="@+id/middleMM"
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/bottomMM"
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="2dp"
+        android:layout_height="87dp"
+        android:background="@android:color/black" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/topRM"
+            android:layout_width="35dp"
+            android:layout_height="28dp"
+            android:text="Button" />
+
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+
+
+
+        <ImageView
+            android:id="@+id/middleRM"
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="35dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+
+
+
+        <ImageView
+            android:id="@+id/bottomRM"
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+
+    </LinearLayout>
+</LinearLayout>

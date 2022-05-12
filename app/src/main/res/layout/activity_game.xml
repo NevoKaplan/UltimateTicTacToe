@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="30dp" />
+
+    <TextView
+        android:id="@+id/announce"
+        android:layout_width="351dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:text="Why Are You Looking Here?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/HomeButton"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="backToMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:srcCompat="@drawable/homebutton" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="352dp"
+        android:layout_height="5dp"
+        android:background="@android:color/black"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="5dp"
+        android:layout_height="450dp"
+        android:background="@android:color/black"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="352dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="132dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <View
+        android:id="@+id/underline"
+        android:layout_width="177dp"
+        android:layout_height="2dp"
+        android:background="#3366BB"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="5dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="116dp"
+        android:background="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToSite"
+        android:text="Donate to the Hamar Charity"
+        android:textColor="#3366BB"
+        app:layout_constraintEnd_toEndOf="@+id/announce"
+        app:layout_constraintStart_toStartOf="@+id/announce"
+        app:layout_constraintTop_toBottomOf="@+id/announce" />
+
+    <ImageView
+        android:id="@+id/example"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/white" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
